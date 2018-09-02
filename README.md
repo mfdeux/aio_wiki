@@ -1,4 +1,4 @@
-# aionewsapi
+# aiowiki
 
 Asyncio client for interacting with wikimedia APIs
 
