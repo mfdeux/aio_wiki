@@ -4,15 +4,15 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup_args = dict(
-    name='aiowiki',
+    name='aio_wiki',
     version='0.1.0',
     author='Marc Ford',
-    url='https://github.com/mfdeux/aiowiki',
+    url='https://github.com/mfdeux/aio_wiki',
     description='Asyncio client for interacting with wikimedia APIs',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
-    packages=['aiowiki'],
+    packages=['aio_wiki'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.6',

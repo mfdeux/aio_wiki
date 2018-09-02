@@ -1,17 +1,17 @@
-# aiowiki
+# aio_wiki
 
 Asyncio client for interacting with wikimedia APIs
 
 Installation instructions:
 
 ```bash
-pip install aiowiki
+pip install aio_wiki
 ```
 
 Usage:
 ```python
 
-from aiowiki import GraphClient
+from aio_wiki import GraphClient
 
 client = GraphClient()
 
@@ -19,4 +19,4 @@ client = GraphClient()
 
 Note
 ---------
-aiowiki is not affiliated or endorsed by any of the web services it interacts with.
+aio_wiki is not affiliated or endorsed by any of the web services it interacts with.

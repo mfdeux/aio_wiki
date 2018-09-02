@@ -2,7 +2,7 @@ import asyncio
 import signal
 from contextlib import suppress
 
-from aiowiki import GraphClient, MediaClient
+from aio_wiki import GraphClient, MediaClient
 
 graph_client = GraphClient()
 media_client = MediaClient()
